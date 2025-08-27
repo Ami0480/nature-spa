@@ -10,10 +10,14 @@ function displayThankYou(event) {
 
   let inputEmail = document.querySelector("#email-input").value;
 
-  if (inputEmail) {
-    window.location.href = "thankyou.html";
-  } else {
+  let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (!inputEmail) {
     alert("Please enter your email");
+  } else if (!emailPattern.test(inputEmail)) {
+    alert("Please enter a valid email address");
+  } else {
+    window.location.href = "thankyou.html";
   }
 }
 
