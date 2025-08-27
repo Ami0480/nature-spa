@@ -23,16 +23,29 @@
       <div class="container">
         <div class="navbar">
           <img src="images/logo.svg" class="logo" />
-          <img src="images/menu.svg" class="hamburger" />
+          <img
+            src="images/menu.svg"
+            class="hamburger"
+            id="open-page"
+            alt="menu"
+          />
         </div>
       </div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Product</a></li>
-      </ul>
     </header>
+
+    <section class="menu-body" id="new-page">
+      <div class="cross-container">
+        <img src="images/cross.svg" class="cross" id="close-page" alt="close" />
+      </div>
+
+      <div class="menu-content">
+        <button>Home</button>
+        <button>About</button>
+        <button>Menu</button>
+        <button>Product</button>
+      </div>
+    </section>
+
     <div class="hero">
       <video autoplay muted loop id="bg-video">
         <source src="images/bg-video.mp4" type="video/mp4" />
@@ -121,9 +134,9 @@
         </div>
         <div class="icon-subscribe">
           <div class="icons">
-            <a href="" /><img src="images/facebook.svg" class="icon" />
-            <a href="" /><img src="images/instagram.svg" class="icon" />
-            <a href="" /><img src="images/x.svg" class="icon" />
+            <a href=""><img src="images/facebook.svg" class="icon" /></a>
+            <a href=""><img src="images/instagram.svg" class="icon" /></a>
+            <a href=""><img src="images/x.svg" class="icon" /></a>
           </div>
           <div class="subscribe">
             <p>Subscribe</p>
@@ -137,5 +150,6 @@
         <p class="copyright">NATURE©2025</p>
       </div>
     </footer>
+    <script src="src/index.js" defer></script>
   </body>
 </html>
