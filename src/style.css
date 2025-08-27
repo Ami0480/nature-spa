@@ -29,6 +29,16 @@ header {
   height: 100dvh;
   overflow: hidden;
 }
+.hero-menu {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+.body-menu {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 #bg-video {
   position: absolute;
@@ -80,6 +90,10 @@ header {
   position: relative;
   z-index: 2;
   padding-top: 30vh;
+}
+.content-menu {
+  position: relative;
+  height: auto;
 }
 
 .navbar {
@@ -183,6 +197,11 @@ h2 {
   margin-bottom: 20px;
 }
 
+h3 {
+  display: flex;
+  font-size: 20px;
+}
+
 .menu-content {
   display: flex;
   flex-direction: column;
@@ -213,7 +232,8 @@ button:hover {
 }
 
 p,
-li {
+li,
+span {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-size: 16px;
@@ -245,6 +265,16 @@ p {
 .about-us-img {
   width: 300px;
   height: auto;
+}
+
+.menu-bg {
+  background: black;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 ul {
   margin: 0;
