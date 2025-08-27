@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Thank you - booking</title>
+    <title>About</title>
   </head>
   <body>
     <header>
@@ -47,15 +47,33 @@
     </section>
 
     <div class="hero">
-      <div class="container">
-        <div class="content">
-          <h1>Thank You.</h1>
-          <p>
-            You will get an email shortly. We are looking forward to seeing you!
-          </p>
-        </div>
+      <div class="img-overlay"></div>
+      <img
+        src="images/about-main-bg.png"
+        class="about-main-bg"
+        alt="about-bg"
+      />
+      <div class="content">
+        <h1>Nature Spa</h1>
+        <button>Book Now</button>
       </div>
     </div>
+
+    <section>
+      <div class="container">
+        <div class="about-us">
+          <h2>About Us</h2>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. But I must explain to you how all this
+            mistaken idea of denouncing pleasure.
+          </p>
+          <img src="images/about-us.png" class="about-us-img" />
+        </div>
+      </div>
+    </section>
 
     <footer>
       <div class="container">
@@ -82,6 +100,24 @@
               ><img src="images/instagram.svg" class="icon"
             /></a>
             <a href="https://x.com"><img src="images/x.svg" class="icon" /></a>
+          </div>
+        </div>
+        <div class="subscribe-email">
+          <div class="subscribe">
+            <p>Subscribe</p>
+
+            <form class="email-input">
+              <input
+                type="email"
+                placeholder="Please enter your email.."
+                class="email"
+                id="email-input"
+                required
+              />
+              <button>
+                <img src="images/arrow.svg" class="arrow" id="arrow" />
+              </button>
+            </form>
           </div>
         </div>
 
