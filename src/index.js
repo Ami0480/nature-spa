@@ -17,7 +17,7 @@ function displayThankYou(event) {
   } else if (!emailPattern.test(inputEmail)) {
     alert("Please enter a valid email address");
   } else {
-    window.location.href = "thankyou.html";
+    window.location.href = "thankyou-subscribe.html";
   }
 }
 
