@@ -355,6 +355,7 @@ li {
 }
 .information-input {
   width: 100%;
+  border: none;
 }
 
 .arrow-down {
@@ -365,10 +366,8 @@ li {
   pointer-events: none;
 }
 
-.information button {
-  padding: 0;
-  margin: 0;
-  height: 0;
+.booking-button {
+  margin-top: 40px;
 }
 
 footer {
